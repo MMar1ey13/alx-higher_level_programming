@@ -1,3 +1,4 @@
+
 Prototypes for functions written in this project:
 
 | File                       | Prototype                                               |
@@ -10,5 +11,5 @@ Prototypes for functions written in this project:
 | `12-fizzbuzz.py`           | `def fizzbuzz():`                                       |
 | `13-insert_number.c`       | `listint_t *insert_node(listint_t **head, int number);` |
 | `101-remove_char_at.py`    | `def remove_char_at(str, n):`                           |
-| `102-magic_calculation.py` | `def magic_calculation(a, b, c):`                       |
+| `102-magic_calculation.py` | `def magic_calculation(a, b, c):`
 
