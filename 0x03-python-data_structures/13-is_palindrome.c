@@ -63,9 +63,8 @@ int is_palindrome(listint_t **head)
 		if (tmp->n != rev->n)
 			return (0);
 		tmp = tmp->next;
-		rev = rev->next;									
+		rev = rev->next;
 	}
 	reverse_listint(&mid);
 
 	return (1);
-}
