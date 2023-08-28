@@ -1,6 +1,6 @@
 #!/usr/bin/python3
-for i in range(0, 100):
-        if i == 99:
-                    print(i)
-                        else:
-                                    print("{:0>2d}".format(i), end=", ")
+for numbers in range(0, 100):
+    if numbers == 99:
+        print("{}".format(numbers))
+    else:
+        print("{:02d}".format(numbers), end=", ")
